@@ -1,5 +1,4 @@
-#### crpip
-CRPIP Media Assets
+#### CRPIP Media Assets
 
 #### This is a repository for testing various media assets, players and implementations for the (proposed) BMJ Research to Publication in particular (... and BMJ Learning more generally?). 
 
