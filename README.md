@@ -23,3 +23,9 @@ A repository for testing various media assets, players and implementations for t
 - Play the video (HTML5 video 'container')
 - Slides synchronised with audio
 - Audio segmentation possible [see here](http://moconnor-bmj.github.io/CRPIP-Media-Assets/slide-2.html) for another example.
+
+
+**Notes**
+- Video and audio media currently on github (raw) so not the most reliable
+- Popcornjs and popcorn maker SDK available as open source
+- More documentation to follow...
