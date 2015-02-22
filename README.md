@@ -17,7 +17,7 @@ A repository for testing various media assets, players and implementations for t
 
 **Audio Slides:**
 
-[The video page](http://moconnor-bmj.github.io/CRPIP-Media-Assets/slide-1.html)  contains a synchronised audio slides for ease of learning and increased user engagement. This example created using popcorn js and popcorn maker SDK (and branded player) but customised player is possible (as with video).
+[The audio slide page](http://moconnor-bmj.github.io/CRPIP-Media-Assets/slide-1.html)  contains a synchronised audio slides for ease of learning and increased user engagement. This example created using popcorn js and popcorn maker SDK (and branded player) but customised player is possible (as with video).
 
 *Usage*
 - Play the video (HTML5 video 'container')
