@@ -451,9 +451,20 @@
                            <div class="span3 mono-updated">Last updated: Apr 11, 2016 </div>
                            <!-- /span4 -->
                            <div id="ham-icon" class="span1">
-                              <a class="toggle-btn hamburger blue-500 active"><span></span></a>
+                              <a class="toggle-btn hamburger blue-500"><span></span></a>
                            </div>
                         </div>
+                        <script>
+                        $(window).scroll(function() {    
+                            var scroll = $(window).scrollTop();
+
+                            if (scroll <= 454) {
+                                $(".toggle-btn").addClass("active");
+                            } else {
+                                $(".toggle-btn").removeClass("active");
+                            }
+                        });
+                        </script>
                         <!-- /row fluid -->
                         <div id="main-nav-wrap" class="menu-wrap">
                            <div class="row-fluid">
