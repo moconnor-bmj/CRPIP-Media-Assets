@@ -1136,7 +1136,13 @@ div#page {
   padding-left: 5px;
   line-height: 1.2rem;
 }
+#main-nav-wrap dd a {
+  pointer-events: none;
+  opacity: 0.7;
+}
 #main-nav-wrap dd.active a {
+  pointer-events: all;
+  opacity: 1;
   font-weight: bold;
   border-bottom: 1px solid;
 }
@@ -1345,6 +1351,9 @@ a.web-link:hover span {
   font-weight: bold;
 }
 /* Standard Monograph - Differential Diagnosis Page */
+#content .body-copy  {
+  margin-top: 50px;
+}
 #content .body-copy .differential-diagnosis h1 {
   margin-bottom: 20px;
 }
