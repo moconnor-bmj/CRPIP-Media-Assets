@@ -1,0 +1,353 @@
+body {
+font-family:interfaceregular, Helvetica, Arial, sans-serif;
+}
+
+#content {
+width:100%;
+float:none;
+margin:0;
+}
+
+@font-face {
+font-family:interfaceregular;
+src:url(../fonts/if_std_rg-webfont.eot?#iefix) format(embedded-opentype), url(../fonts/if_std_rg-webfont.woff) format(woff), url(../fonts/if_std_rg-webfont.ttf) format(truetype), url(../fonts/if_std_rg-webfont.svg#interfaceregular) format(svg);
+font-weight:400;
+font-style:normal;
+}
+
+* {
+text-shadow:none!important;
+color:#000!important;
+background:transparent!important;
+box-shadow:none!important;
+}
+
+a,a:visited {
+text-decoration:underline;
+}
+
+abbr[title]:after {
+content:" (" attr(title) ")";
+}
+
+a[href^="javascript:"]:after,a[href^="#"]:after {
+content:"";
+}
+
+pre,blockquote {
+border:1px solid #999;
+page-break-inside:avoid;
+}
+
+thead {
+display:table-header-group;
+}
+
+tr,img {
+page-break-inside:avoid;
+}
+
+img {
+max-width:100%!important;
+}
+
+p,h2,h3 {
+orphans:3;
+widows:3;
+}
+
+h2,h3 {
+page-break-after:avoid;
+}
+
+select {
+background:#fff!important;
+}
+
+.table td,.table th {
+background-color:#fff!important;
+}
+
+.btn > .caret,.dropup > .btn > .caret {
+border-top-color:#000!important;
+}
+
+.label {
+border:1px solid #000;
+}
+
+.table {
+border-collapse:collapse!important;
+}
+
+.table-bordered th,.table-bordered td {
+border:1px solid #ddd!important;
+}
+
+dd {
+height:auto;
+}
+
+#content dl dt {
+display:block;
+color:#2a6ebb!important;
+}
+
+#content dl dd {
+display:block!important;
+overflow:visible!important;
+height:auto!important;
+line-height:1.6em;
+margin:0;
+padding:0;
+}
+
+#differential-diagnosis-table table th.history,#differential-diagnosis-table th.exam,#differential-diagnosis-table th.first-test,#differential-diagnosis-table th.other-tests {
+width:25%;
+}
+
+#differential-table table th.condition,#differential-table table th.signs,#differential-table table th.tests {
+width:33.3333%;
+}
+
+header .logo {
+margin:0;
+padding:0;
+}
+
+.monograph-header-container .mono-updated {
+padding-top:0;
+margin-bottom:20px;
+}
+
+.evidence-nav-container {
+margin-bottom:20px;
+}
+
+#content table {
+width:90%;
+border-collapse:collapse;
+margin-bottom:1em;
+border:1px solid #999;
+}
+
+#content table tr {
+border-spacing:10px;
+}
+
+#content table th {
+text-align:left;
+border:1px solid #999;
+border-bottom:3px solid #999;
+padding:.1em;
+}
+
+#content table td {
+vertical-align:top;
+border:1px solid #999;
+padding:.1em;
+}
+
+#content table ul {
+margin:0!important;
+}
+
+#content table li {
+padding-left:.1em;
+}
+
+.monograph-header-container h1 small.monograph-title {
+font-size:1.5rem!important;
+font-weight:700;
+}
+
+#content h2.content-title-cols,#content .body-copy h2.content-title-cols {
+font-size:1.36rem;
+margin-bottom:0;
+padding-bottom:10px;
+border-bottom:4px solid #cddff4;
+}
+
+#content .overview-container .body-copy h2 {
+border-bottom:none;
+}
+
+#content .body-copy h3 {
+margin-top:0;
+border-bottom:1px solid #cddff4;
+}
+
+#content #drug-list .body-copy h1 {
+font-size:1.36rem;
+margin-bottom:10px;
+padding-bottom:10px;
+border-bottom:4px solid #cddff4;
+}
+
+#content #guidelines h2.content-title {
+margin-bottom:20px;
+background-color:#fff;
+color:#333;
+border-bottom:4px solid #cddff4;
+padding:0 0 10px;
+}
+
+.treatment-options .collapse {
+height:auto!important;
+}
+
+#content h3.acute {
+margin-top:20px;
+}
+
+#content .span9.treatment.expandable {
+border:3px solid #cddff4;
+page-break-after:always;
+margin:0 0 20px;
+padding:0 10px;
+}
+
+.treatment-options .patient-group-btn span,.treatment-options .treatment-btn span:before {
+content:"[";
+}
+
+.treatment-options .patient-group-btn span,.treatment-options .treatment-btn span:after {
+content:"]";
+margin-right:5px;
+}
+
+.treatment-options .treatment-line-phone div {
+display:inline-block;
+margin-left:-3px;
+margin-right:-3px;
+}
+
+.treatment-options hr {
+margin:18px 0;
+}
+
+.treatment-options .treatment-container .treatment {
+margin-bottom:6px;
+}
+
+.treatment-options .treatment-line h4:before {
+content:"Treatment line: ";
+}
+
+.treatment-options .treatment-line h4 {
+font-weight:400;
+font-size:14px;
+}
+
+.treatment-options .treatment-line h4 span {
+font-weight:700;
+}
+
+.treatment-options .treatment-line-phone {
+display:inline;
+}
+
+.treatment-options .patient-group {
+margin-bottom:0;
+margin-top:10px;
+}
+
+.treatment-options .treatment-container {
+margin-bottom:0;
+}
+
+.treatment-options .patient-subgroup-end .patient-group-btn,.treatment-options .patient-subgroup-middle .patient-group-btn {
+margin-top:6px;
+}
+
+.treatment-options .patient-group-btn,.treatment-options .treatment-btn {
+background-color:#CCDCEF;
+margin-top:0;
+padding:5px 5px 3px;
+}
+
+.treatment-options .patient-group-btn span,.treatment-options .treatment-btn span {
+padding-bottom:2px;
+display:inline-block;
+}
+
+.treatment-options .patient-group-content,.treatment-options .treatment-content {
+background-color:#CCDCEF;
+padding:0 5px;
+}
+
+.treatment-options .treatment-content * {
+font-size:14px;
+line-height:20px;
+}
+
+.treatment-options .treatment-content ul {
+margin-top:12px;
+}
+
+.treatment-options .patient-group-container .middle {
+margin-top:0;
+padding-top:0;
+}
+
+.treatment-options .patient-group-container .patient-subgroup-end .patient-group-btn,.treatment-options .patient-group-container .patient-subgroup-end .patient-group-content,.treatment-options .patient-group-container .patient-subgroup-middle h4.patient-group-btn,.treatment-options .patient-group-container .patient-subgroup-middle .patient-group-content,.treatment-options .patient-group-container .middle.three .patient-group-content,.treatment-options .patient-group-container .middle.blank-end.two .patient-group-content {
+background-color:#E5EEF7;
+margin-left:35px;
+}
+
+.treatment-options .patient-group-parent-single,.treatment-options .patient-group-parent .patient-group-btn,.treatment-options .patient-group-parent .patient-group-content,.treatment-options .patient-group-parent .middle.one .patient-group-content,.treatment-options .patient-group-container .middle.blank-end.one .patient-group-content {
+background-color:#CCDCEF;
+}
+
+.treatment-options .patient-subgroup-middle {
+background-position:7px 18px;
+}
+
+.treatment-options .patient-subgroup-end {
+background-position:2px 18px;
+}
+
+.treatment-options .patient-group-container .middle.blank-end.one .span3 {
+min-height:5px;
+}
+
+#content div.treatment-options div.span9.treatment.expandable {
+margin:5px 0;
+}
+
+.treatment-options .treatment-container .treatment-btn,.treatment-options .treatment-container .treatment-content {
+background-color:#fff;
+font-weight:400;
+}
+
+.treatment-options .column-headings h3 {
+background-color:transparent;
+color:#333;
+}
+
+.treatment-options .patient-group-container h4.patient-group-btn {
+font-weight:700;
+margin-left:0;
+}
+
+[class*="span"] {
+min-height:0;
+}
+
+.navbar,#global-nav,p#accessibility-links,#login-bar,#header #tools,#header #search-options #browse,#header #search-options #main-search,#status,#status-bar,div.main-search-container,div.bpLogo-main,div.bmj-cookie-noticebar-content,div.bpLogo-buttons,#browser,#main-nav-wrap,#sub-nav,#page-tools,#myCarousel,#global-body,.doc2doc-container,#site-nav,.global-footer,.content-footer,div.sort,div.top,div.page-tools,span.expand-all,span.collapse-all,div.sort,a.image-link,.pagination,#edit-note-popup,span.frequency,#user-notes div.controls,#content-header,saved-search-container,#my-best-practice ul.tabNavigation,#my-institution ul.tabNavigation,#my-institution #personalise,#content a.more-link,#content a.ref-link,.menu-logo,#differential-table table caption,#content .treatment-options .row-fluid.hidden-phone,#content .treatment-options h4.patient-group-btn,.treatment-options .treatment-container .span1 {
+display:none;
+}
+
+h1.contact-us,#content .body-copy h2 {
+font-size:1.25rem;
+border-bottom:1px solid #E3E4E4;
+margin:0 0 5px;
+padding:0 0 3px;
+}
+
+#feedback .body-copy h1,#content h2.content-title,#content .body-copy h2.content-title,#content .body-copy .ce-subject-list h2,#content .body-copy .ce-condition-list h2,#content .ce .body-copy h2 {
+font-size:1.36rem;
+margin-bottom:20px;
+padding-bottom:10px;
+border-bottom:4px solid #cddff4;
+}
