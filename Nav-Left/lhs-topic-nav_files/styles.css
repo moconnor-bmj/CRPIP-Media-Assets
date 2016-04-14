@@ -2149,9 +2149,7 @@ div.popup-image div.body p.update-status {
   overflow-y: auto;
 }
     
-#mono-nav-container.affix-top{
-		position: static;
-	 }
+
 
 #mono-nav-container.affix-bottom {
     bottom: 520px;
