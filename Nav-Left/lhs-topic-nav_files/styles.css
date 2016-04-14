@@ -2153,9 +2153,9 @@ div.popup-image div.body p.update-status {
 		position: static;
 	 }
 
-#mono-nav-container.affix-bottom{
-		position:absolute;
-	 }
+#mono-nav-container.affix-bottom {
+    bottom: 520px;
+  }
 #mono-nav-container dl {
   background-color: #E5EEF7;
   width: 100%;
