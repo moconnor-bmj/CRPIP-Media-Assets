@@ -214,8 +214,6 @@
       </a>
     </p>
     <!-- Global nav bar-->
-    <div class="ad-update-browser" id="ad-update-browser">
-    </div>
     <div class="ad-leaderboard" id="ad-leaderboard">
       <script language="JavaScript">
         <!--
@@ -2176,6 +2174,26 @@ alt="evidence centre logo" /></a></div></div>
         b.parentNode.insertBefore(a,b)}
                  ,1);
     </script>
+    <script>
+    $(document).ready(function(){
+    $(".monograph-header-container").affix({
+        offset: { 
+            top: 454 
+        }
+      });
+    });
+    </script>
+    
+    <script>
+    $(document).ready(function(){
+    $("#mono-nav-container").affix({
+        offset: { 
+            top: 454 
+        }
+      });
+    });
+    </script>
+    <script>$('#mono-nav-container').height($(window).height() - 120)</script> 
     <div id="snackbar-container">
     </div>
   </body>
