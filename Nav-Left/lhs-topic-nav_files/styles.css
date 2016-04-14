@@ -2139,10 +2139,23 @@ div.popup-image div.body p.update-status {
 }
 /* Mono Nav New Concept */
 #mono-nav-container {
-  margin: 0px 20px 0 0;
-  padding: 20px 0;
+  padding: 10px;
   text-align: right;
+  
 }
+#mono-nav-container.affix {
+  top: 60px;
+  width: 262px;
+  overflow-y: auto;
+}
+    
+#mono-nav-container.affix-top{
+		position: static;
+	 }
+
+#mono-nav-container.affix-bottom{
+		position:absolute;
+	 }
 #mono-nav-container dl {
   background-color: #E5EEF7;
   width: 100%;

@@ -1041,11 +1041,21 @@ div#page {
   left: -100px;
 }
 /* Monographs - Header & Nav (Standard / Overview / Generic) */
-
+#affix_me {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  top: -32px; 
+}
 #affix_me.affix {
   top: 0px; /* Set the top position of pinned element */
   z-index: 9999;
   width: 1170px;
+  -webkit-box-shadow: 0 0 5px #cccccc;
+  box-shadow: 0 0 5px #cccccc;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .monograph-header-container {
   background-color: #2a6ebb;

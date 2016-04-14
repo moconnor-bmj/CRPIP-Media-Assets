@@ -1069,7 +1069,7 @@ lang="en">
                 <!---/////////////// Monograph content \\\\\\\\\\\\\\\===-->
                 <div class="row-fluid" id="content">
                     <div class="span3">
-                        <div id="mono-nav-container">
+                        <div id="mono-nav-container" data-spy="affix">
                             <!-- Monograph Navigation Map -->
                             <div id="main-nav-wrap">
                                 <dl class="nav-mono-tabs" id="highlights">
@@ -1822,9 +1822,22 @@ lang="en">
       });
     });
     </script>
+    
+    <script>
+    $('#mono-nav-container').affix({offset: {
+      top: 454, 
+      bottom: 200 } 
+      }
+    );
+    </script>
+    
+    
     <script id="" type="text/javascript">
     setTimeout(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/4896.js?"+Math.floor((new Date).getTime()/36E5);a.async=!0;a.type="text/javascript";b.parentNode.insertBefore(a,b)},1);
     </script>
+    
+ <!--   <script>$('#mono-nav-container').height($(window).height() - 120)</script> -->
+    
     <div id="snackbar-container"></div>
 </body>
 </html>
