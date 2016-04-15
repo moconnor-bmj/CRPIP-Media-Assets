@@ -1,3 +1,9 @@
+.clearfix:after {
+  content: "";
+  display: table; 
+  clear: both; 
+}
+
 a {
   pointer-events: none;
 }
@@ -2158,15 +2164,10 @@ div.popup-image div.body p.update-status {
   width: 262px;
   overflow-y: auto;
 }
-    
-
-#mono-nav-container.affix-top {
-    top: 454px;
-  }
-#mono-nav-container.affix-bottom {
-    bottom: 520px;
-  }
-
+#portal.affix {
+  position: fixed;
+  bottom: 60px;
+}
 #mono-nav-container dl {
   background-color: #E5EEF7;
   width: 100%;

@@ -1058,7 +1058,7 @@ lang="en">
                     <div class="span3">
                         <div id="mono-nav-container">
                             <!-- Monograph Navigation Map -->
-                            <div id="main-nav-wrap">
+                            <div id="main-nav-wrap" style="background-color: #fff; z-index: 9999;">
                                 <dl class="nav-mono-tabs" id="highlights">
                                     <dt data-target="#highlights dd"
                                     data-toggle="collapse">
@@ -2760,7 +2760,7 @@ lang="en">
                     </ul>
                 </div>
                 <div class="clear"></div><!-- INSERT CITATION JSP HERE -->
-                <div class="doc2doc-container">
+                <div class="doc2doc-container" style="display: none">
                     <div class="row-fluid">
                         <div class="span12">
                             <div id="doc2doc-links">
@@ -2810,7 +2810,7 @@ lang="en">
                         </div>
                     </div>
                 </div>
-                <div class="disclaimer">
+                <div class="disclaimer" style="display: none">
                     <p>Use of this content is subject to our <a href=
                     "http://local.bestpractice-bmj-com.internal.bmjgroup.com/best-practice/marketing/disclaimer.html"
                     tabindex="65">disclaimer</a></p>
@@ -2822,7 +2822,7 @@ lang="en">
     <footer>
         <div class="row-fluid">
             <div class="span12">
-                <div class="content-footer">
+                <div class="content-footer" style="display: none">
                     <div class="container">
                         <div class="row-fluid">
                             <div class="span5">
@@ -2873,7 +2873,7 @@ lang="en">
                                 </div>
                             </div>
                         </div>
-                        <div class="row-fluid">
+                        <div class="row-fluid" style="display: none">
                             <div class="span2">
                                 <h4><a class="footer-heading collapsed"
                                 data-toggle="collapse" href=
@@ -3018,7 +3018,7 @@ lang="en">
                         </div>
                     </div>
                 </div>
-                <div class="global-footer">
+                <div class="global-footer" style="display: none">
                     <ul class="inline-list pull-right">
                         <li>
                             <a href=
@@ -3054,9 +3054,9 @@ lang="en">
                         </li>
                     </ul>
                 </div>
-                <p class="copyright">© BMJ Publishing Group Limited 2016. All
+                <p class="copyright" style="display: none">© BMJ Publishing Group Limited 2016. All
                 rights reserved.</p>
-                <p class="copyright">京ICP备15042040号-3</p><!--
+                <p class="copyright" style="display: none">京ICP备15042040号-3</p><!--
         
         <div class="pull-left">
             <div class="sub-brand">
@@ -3087,15 +3087,6 @@ lang="en">
         active: 'selected'
       });
     </script> 
-    <script>
-    $(document).ready(function(){
-    $(".monograph-header-container").affix({
-        offset: { 
-            top: 454 
-        }
-      });
-    });
-    </script>
     <script id="" type="text/javascript">
     setTimeout(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/4896.js?"+Math.floor((new Date).getTime()/36E5);a.async=!0;a.type="text/javascript";b.parentNode.insertBefore(a,b)},1);
     </script>
@@ -3118,7 +3109,7 @@ lang="en">
       });
     });
     </script>
-    <script>$('#mono-nav-container').height($(window).height() - 120)</script> 
+    <script>$('#mono-nav-container').height($(window).height() - 120)</script>
     <div id="snackbar-container"></div>
 </body>
 </html>
