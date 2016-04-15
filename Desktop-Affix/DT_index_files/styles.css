@@ -1078,7 +1078,7 @@ div#page {
 }
 
 .monograph-header-container .hamburger{
-    margin-left: 20px;
+    
 }
 .monograph-header-container .mono-updated {
   padding-top: 15px;
@@ -1089,7 +1089,9 @@ div#page {
   padding: 0 8px;
   font-weight: bold;
 }
-
+.monograph-header {
+    margin-left: -40px;
+}
 #main-nav-wrap {
   padding: 0 9px 0 9px;
   background-color: #E5EEF7;
