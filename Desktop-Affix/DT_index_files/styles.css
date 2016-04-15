@@ -29,6 +29,13 @@ a{
 .ad-leaderboard a:active, .ad-leaderboard a:current {
   color: #ffa500 !important;
 }
+
+.fa-inverse {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    
 a.toggle-btn.hamburger.blue-500 {
 pointer-events: all;
 }

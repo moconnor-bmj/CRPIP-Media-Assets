@@ -29,6 +29,12 @@ a{
 .ad-leaderboard a:active, .ad-leaderboard a:current {
   color: #ffa500 !important;
 }
+
+.fa-inverse {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    }
 /** Generic **/
 #content {
   margin-top: 20px;
