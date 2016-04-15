@@ -1000,7 +1000,14 @@ div#page {
   font-size: 1.5rem !important;
   font-weight: bold;
 }
+
 #main-nav-wrap {
+   box-sizing: border-box;
+   position: absolute;
+   top: 510px;
+   z-index: 1;
+   width: 1170px;
+  
   padding: 0 9px 0 9px;
   background-color: #E5EEF7;
   border: 1px solid #cddff4;
@@ -8731,7 +8738,7 @@ input[type="text"] .tm-input {
   #main-nav-wrap dl#diagnosis.nav-mono-tabs.active {
     width: 100%;
   }
-  #page-tools div {
+  #page-tools  {
     margin-bottom: 10px;
   }
   .generic-nav-container {
