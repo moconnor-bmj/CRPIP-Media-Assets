@@ -29,11 +29,10 @@ a{
 .ad-leaderboard a:active, .ad-leaderboard a:current {
   color: #ffa500 !important;
 }
-
 .fa-inverse {
-    color: #fff;
-    font-size: 2rem;
-    font-weight: bold;
+    color: #fff !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
     }
 /** Generic **/
 #content {
