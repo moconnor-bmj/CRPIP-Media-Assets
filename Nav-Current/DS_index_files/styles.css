@@ -9,7 +9,7 @@ a {
 
 
 .ad-leaderboard a:active {
-  color: #cc0000;
+  color: #ffa500 !important;
 }
 /** Generic **/
 #content {
