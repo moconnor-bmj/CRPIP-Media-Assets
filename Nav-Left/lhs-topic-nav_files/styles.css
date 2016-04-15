@@ -1,8 +1,8 @@
 #messaging {
 position: absolute;
-left: 50%;
+left: 55%;
 transform: translateX(-50%);
-bottom: 400px;
+bottom: 40px;
 background-color: #ffa500;
 font-size: 1.5rem;
 padding: 10px;
