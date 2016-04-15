@@ -26,8 +26,17 @@ a{
 #ad-leaderboard div.span3 a {
   pointer-events: all;
 }
-.ad-leaderboard a:active, .ad-leaderboard a:current {
+
+#ad-leaderboard div.span3 a:link {
   color: #ffa500 !important;
+}
+
+#ad-leaderboard div.span3 a:hover {
+  color: #E5EEF7 !important;
+}
+
+#ad-leaderboard div.span3 a.current{
+  color: #cc0000 !important;
 }
 
 .fa-inverse {
