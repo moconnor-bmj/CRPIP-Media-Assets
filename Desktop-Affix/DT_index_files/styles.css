@@ -1,13 +1,32 @@
-a {
+#messaging {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: 400px;
+background-color: #ffa500;
+font-size: 1.5rem;
+padding: 10px;
+border: 5px solid #fff;
+color: #fff;
+font-weight: bold;
+border-radius: 20px;
+width: 600px;
+text-shadow: 2px 2px #e19201;
+text-align: center;
+} 
+a{
   pointer-events: none;
 }
-.active a, a .active, a.back-to-top {
+.active a, a .active, a.back-to-top, .ad-leaderboard a {
   pointer-events: all;
   opacity: 1;
   font-weight: bold;
-  border-bottom: 1px solid;
 }
 
+
+.ad-leaderboard a:active, .ad-leaderboard a:current {
+  color: #ffa500 !important;
+}
 a.toggle-btn.hamburger.blue-500 {
 pointer-events: all;
 }
