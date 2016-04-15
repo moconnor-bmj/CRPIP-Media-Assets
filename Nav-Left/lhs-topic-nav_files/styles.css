@@ -23,7 +23,9 @@ a{
   font-weight: bold;
 }
 
-
+#ad-leaderboard div.span3 a {
+  pointer-events: all;
+}
 .ad-leaderboard a:active, .ad-leaderboard a:current {
   color: #ffa500 !important;
 }
