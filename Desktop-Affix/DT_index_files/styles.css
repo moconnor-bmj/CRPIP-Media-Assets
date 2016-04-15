@@ -1,3 +1,17 @@
+a {
+  pointer-events: none;
+}
+.active a, a .active, a.back-to-top {
+  pointer-events: all;
+  opacity: 1;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+a.toggle-btn.hamburger.blue-500 {
+pointer-events: all;
+}
+
 .bt-menu-trigger {
   font-size: 30px;
   position: relative;

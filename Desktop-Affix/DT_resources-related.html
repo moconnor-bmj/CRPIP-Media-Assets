@@ -719,654 +719,147 @@
                 <div class="span12">
                   <!--  Add any additional JSP pages that we need to render the view -->
                   
-    <div class="body-copy">
-      <div class="treatment-options " id="treatment-options">
-        <h2 class="content-title">Treatment options</h2>
-        <span class="treatment-drug-message"><i>BMJ Best Practice is intended for use by licensed medical health professionals and it lists drug names by recommended International Nonproprietary Names (rINNs) only. It is possible that certain drug formularies might refer to the same drugs using US Adopted Names (USANs). <u>Please note that formulations and doses between these two drug nomenclatures may differ.</u> Consequently, the information provided must be checked in each instance in order to ensure that it is accurate and suitable. Professional judgement must be exercised in order to provide appropriate treatment. In particular, consult your local pharmaceutical resource for drug information, including with regard to contraindications, drug interactions, and alternative dosing. (<a href="/best-practice/marketing/disclaimer.html">see Disclaimer</a>)</i></span>
-        <div xmlns="" class="container treatment-options expandable-section" id="content">
-          <h3 class="presumptive">Presumptive</h3>
-          <div class="column-headings">
-            <div class="row-fluid hidden-phone">
-              <div class="span3">
-                <h4>Patient group</h4>
-              </div>
-              <div class="span2">
-                <h4>Treatment line</h4>
-              </div>
-              <div class="span7">
-                <h4>Treatment<span class="showall collapse-all">hide all</span>
-                </h4>
-              </div>
-            </div>
-            <div class="patient-group-head visible-phone">
-              <h3>Patient group:</h3>
+    <div class="portal row-fluid" id="content">
+      <div class="body-copy span12" id="portal">
+        <h2 class="content-title">
+          Related BMJ content
+        </h2>
+		
+		<div class="row-fluid">
+			<div class="span12">
+			
+				<div class="row-fluid">
+					<div class="span9">
+						<div class="intro">
+						  <div class="instructions">
+							<div class="message">
+							  <p>You can either view single items of interest by selecting each title individually, save multiple items by selecting checkboxes below and Add checked items to Portfolio, or save a link to this page by selecting the Add to BMJ Portfolio button above.</p>
+							</div>
+						  </div>
+						</div>
+					</div> 
+					
+					<div class="span3">
+						<div class="btn add-portfolio">
+							<a id="add_all_to_plan_link" class="learning reflink portfolio" href="http://portfolio.bmj.com/portfolio">
+								  Add checked items to<br>BMJ Portfolio
+							</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="row-fluid">
+				
+					<div class="span9">&nbsp;</div>
+					
+					<div class="span3">
+					
+						<div class="add-to-portfolio">
+						  <div style="display: none" id="added_message">
+							items have been added to your
+							<a tabindex="45" target="_blank" href="http://portfolio.bmj.com">BMJ Portfolio</a>
+						  </div>
+
+						  <div style="display: none" id="static_added_message">
+							items have been added to your
+							<a tabindex="45" target="_blank" href="http://portfolio.bmj.com">BMJ Portfolio</a>
+						  </div>
+
+						  <div style="display: none" id="added_message_error">
+							There was an error trying to save your data to BMJ Portfolio
+						  </div>
+
+						  <div style="display: none;" id="no_results_message">
+							<p>No search results found.</p>
+						  </div>
+						</div>
+					
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+        <!-- <div class="clear"></div> -->
+
+        <div class="row-fluid">
+          <div class="span6">
+            <div class="learning" id="learning">
+              <div class="product-logo"><img src="./DT_index_files/portal-logo-bmjl.gif"></div>
+              <h2>Key modules on <i>BMJ Learning</i></h2>
+              
+              <div class="content"><div class="btn portal-item"><a target="_blank" href="http://learning.bmj.com/learning/module-intro/.html?moduleId=10052886">Sudden cardiac death in athletes</a><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><a target="_blank" href="http://learning.bmj.com/learning/module-intro/.html?moduleId=10043471">Prevention of sudden cardiac death in hypertrophic cardiomyopathy</a><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><a target="_blank" href="http://learning.bmj.com/learning/module-intro/.html?moduleId=5004337">Primary prevention of sudden cardiac death</a><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><a target="_blank" href="http://learning.bmj.com/learning/module-intro/.html?moduleId=10032822">Pros and cons of screening for sudden cardiac death in sports</a><input class="addItemToPortfolio" type="checkbox"></div></div>
             </div>
           </div>
-          <div class="patient-group-container">
-            <div class="patient-group-parent patient-group-parent-single">
-              <div class="row-fluid">
-                <div class="span3">
-                  <h4 class="patient-group-btn">unwitnessed cardiac arrest</h4>
-                </div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">1st</h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn expanded" id="expsec-1" name="expsec-1"><i class="icon-arrow-down"></i>
-                            <span class="treatment-line-phone">1st</span><span class="treatment-name">CPR</span>
-                          </h4>
-                          <div style="height: auto; position: static !important;" class="treatment-content and-or in collapse" id="treatmentContent1">
-                            <ul>
-                              <li>
-                                <p xmlns:common="http://exslt.org/common">Circulation of the blood by means of CPR is a demonstrated therapy in patients with sudden cardiac arrest and is thought to work by raising intrathoracic pressure, as well as providing direct cardiac compression.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-69" id="popuplink-ref-bp_69" class="reflink"> [69] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Each cycle: 30 compressions (at a rate of 100 compressions/minute) and 2 breaths for a total of 5 cycles (2 minutes).<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-48" id="popuplink-ref-bp_48" class="reflink"> [48] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>International Liaison Committee on Resuscitation (ILCOR) guidelines have specified that compressions should be performed as the first priority; breaths may follow, but should not impede lay persons from providing emergent compressions, as compression-only CPR has yielded equivalent outcomes to compression plus ventilation.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-48" id="popuplink-ref-bp_48" class="reflink"> [48] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>The patient should be transferred to an emergency care setting as soon as possible.</p>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="span6">
+            <div class="learning" id="bp">
+              <div class="product-logo"> <img src="./DT_index_files/portal-logo-bp.gif"></div>
+              <h2>Key monographs on <i>BMJ Best Practice</i></h2>
+              
+              <div class="content"><div class="btn portal-item"><a target="_blank" href="/best-practice/monograph/687.html">Sudden infant death syndrome</a><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><a target="_blank" href="/best-practice/monograph/837.html">Overview of dysrhythmias (cardiac)</a><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><a target="_blank" href="/best-practice/monograph/829.html">Long QT syndrome</a><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><a target="_blank" href="/best-practice/monograph/830.html">Assessment of tachycardia</a><input class="addItemToPortfolio" type="checkbox"></div></div>
             </div>
           </div>
-          <hr>
         </div>
-        <div class="container treatment-options expandable-section" id="content">
-          <h3 class="acute">Acute</h3>
-          <div class="column-headings">
-            <div class="row-fluid hidden-phone">
-              <div class="span3">
-                <h4>Patient group</h4>
-              </div>
-              <div class="span2">
-                <h4>Treatment line</h4>
-              </div>
-              <div class="span7">
-                <h4>Treatment<span class="showall collapse-all">hide all</span>
-                </h4>
-              </div>
-            </div>
-            <div class="patient-group-head visible-phone">
-              <h3>Patient group:</h3>
+
+        <!-- <div class="clear"></div> -->
+
+        <div class="row-fluid">
+          <div class="span6">
+            <div class="learning" id="ce">
+              <div class="product-logo"><img src="./DT_index_files/portal-logo-ce.gif"></div>
+              <h2>Key articles from <i>BMJ Clinical Evidence</i></h2>
+              
+              <div class="content"><div class="btn portal-item"><a target="_blank" href="http://clinicalevidence.bmj.com/x/systematic-review/0216/overview.html">Out-of-hospital cardiac arrest in adults: lowering body temperature</a><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><a target="_blank" href="http://clinicalevidence.bmj.com/x/systematic-review/0307/overview.html">Cardiorespiratory arrest in children (out of hospital)</a><input class="addItemToPortfolio" type="checkbox"></div></div>
             </div>
           </div>
-          <div class="patient-group-container">
-            <div class="patient-group-parent patient-group-parent-single">
-              <div class="row-fluid">
-                <div class="span3">
-                  <h4 class="patient-group-btn">shockable rhythms (pulseless ventricular tachycardia or ventricular fibrillation)</h4>
-                </div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">1st</h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn expanded" id="expsec-2" name="expsec-2"><i class="icon-arrow-down"></i>
-                            <span class="treatment-line-phone">1st</span><span class="treatment-name">CPR and defibrillation</span>
-                          </h4>
-                          <div style="height: auto; position: static !important;" class="treatment-content and-or in collapse" id="treatmentContent2">
-                            <ul>
-                              <li>
-                                <p>Circulation of the blood by means of CPR is a demonstrated therapy in patients with sudden cardiac arrest and is thought to work by raising intrathoracic pressure, as well as providing direct cardiac compression.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-69" id="popuplink-ref-bp_69" class="reflink"> [69] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Each cycle: 30 compressions (at a rate of 100 compressions/minute) and 2 breaths for a total of 5 cycles (2 minutes).<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-48" id="popuplink-ref-bp_48" class="reflink"> [48] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>International Liaison Committee on Resuscitation (ILCOR) guidelines have specified that compressions should be performed as the first priority; breaths may follow, but should not impede lay persons from providing emergent compressions, as compression-only CPR has yielded equivalent outcomes to compression plus ventilation.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-48" id="popuplink-ref-bp_48" class="reflink"> [48] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Defibrillation in the setting of pulseless VT/VF is demonstrated to restore normal sinus rhythm and should be initiated promptly, as the success of this therapy diminishes over time.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-70" id="popuplink-ref-bp_70" class="reflink"> [70] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>For a witnessed arrest, electrical defibrillation should be attempted as soon as possible, not necessarily after 5 cycles of CPR.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-56" id="popuplink-ref-bp_56" class="reflink"> [56] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>For unwitnessed out-of-hospital cardiac arrest, 5 cycles of CPR before defibrillation yields more favourable outcomes.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-71" id="popuplink-ref-bp_71" class="reflink"> [71] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Guidelines recommend 1 shock followed by CPR if a perfusing rhythm is not restored, because the benefit of multiple shocks is undemonstrated and the delay in resumption of CPR is harmful.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-56" id="popuplink-ref-bp_56" class="reflink"> [56] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Guideline recommendations are 120 to 200 J for biphasic defibrillators and 360 J for monophasic defibrillators.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-49" id="popuplink-ref-bp_49" class="reflink"> [49] </a>
-                                </p>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class=" middle blank-end one">
-              <div class="row-fluid">
-                <div class="span3"></div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">
-                            <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for ALL patients in selected patient group.">plus<i class="icon-info-sign"></i>
-                              <p class="info hidden-phone">
-                                <span>[?]</span>
-                              </p>
-                            </div>
-                          </h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn expanded" id="expsec-3" name="expsec-3"><i class="icon-arrow-down"></i>
-                            <span class="treatment-line-phone">
-                              <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for ALL patients in selected patient group.">plus<i class="icon-info-sign"></i>
-                                <p class="info hidden-phone">
-                                  <span>[?]</span>
-                                </p>
-                              </div>
-                            </span><span class="treatment-name">vasopressor</span>
-                          </h4>
-                          <div style="height: auto; position: static !important;" class="treatment-content and-or in collapse" id="treatmentContent3">
-                            <ul>
-                              <li>
-                                <p>Given with second shock and followed with 5 cycles of CPR.</p>
-                              </li>
-                              <li>
-                                <p>Adrenaline (epinephrine) is a potent agonist of alpha- and beta-adrenergic receptors. Despite controversial data on its benefit in resuscitation, it has been used extensively in treating patients of sudden cardiac arrest and occupies a prominent role in the algorithms of advanced cardiac life support.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-49" id="popuplink-ref-bp_49" class="reflink"> [49] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>In cases where intravenous access cannot be established, twice the normal dose of adrenaline (epinephrine) (diluted in saline) can be given through an endotracheal tube.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-1" id="popuplink-ref-bp_1" class="reflink"> [1] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Vasopressin is normally secreted by the posterior pituitary gland. In addition to its myriad effects on the kidney, vasopressin is also a potent vasoconstrictor. It should not be used instead of adrenaline (epinephrine), but can continue to be used in settings where it is already in use.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-49" id="popuplink-ref-bp_49" class="reflink"> [49] </a>
-                                </p>
-                              </li>
-                            </ul>
-                            <p>
-                              </p><h4>Primary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-2" href="#drug-link-content-179267-2">adrenaline</a>: 1 mg intravenously every 3-5 minutes</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-2">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-2&amp;optionId=expsec-3&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-2&amp;optionId=expsec-3&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-2&amp;optionId=expsec-3&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-2&amp;optionId=expsec-3&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div><div class="big-or">
-                              <strong>OR</strong>
-                            </div><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-3" href="#drug-link-content-179267-3">adrenaline</a>: 2 mg (diluted in 5-10 mL normal saline) endotracheally every 3-5 minutes until IV access established</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-3">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-3&amp;optionId=expsec-3&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-3&amp;optionId=expsec-3&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-3&amp;optionId=expsec-3&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-3&amp;optionId=expsec-3&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div><p>
-                              </p><h4>Secondary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-4" href="#drug-link-content-179267-4">vasopressin</a>: 40 units intravenously as a single dose</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-4">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-4&amp;optionId=expsec-3&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-4&amp;optionId=expsec-3&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-4&amp;optionId=expsec-3&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-4&amp;optionId=expsec-3&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class=" middle blank-end one">
-              <div class="row-fluid">
-                <div class="span3"></div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">
-                            <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for SOME patients in selected patient group. Click on treatment name for more details.">adjunct<i class="icon-info-sign "></i>
-                              <p class="info hidden-phone">
-                                <span>[?]</span>
-                              </p>
-                            </div>
-                          </h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn expanded" id="expsec-4" name="expsec-4"><i class="icon-arrow-down"></i>
-                            <span class="treatment-line-phone">
-                              <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for SOME patients in selected patient group. Click on treatment name for more details.">adjunct<i class="icon-info-sign "></i>
-                                <p class="info hidden-phone">
-                                  <span>[?]</span>
-                                </p>
-                              </div>
-                            </span><span class="treatment-name">magnesium</span>
-                          </h4>
-                          <div style="height: auto; position: static !important;" class="treatment-content and-or in collapse" id="treatmentContent4">
-                            <ul>
-                              <li>
-                                <p>In patients with sudden cardiac arrest due to torsades de pointes, giving magnesium may restore a perfusing cardiac rhythm.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-59" id="popuplink-ref-bp_59" class="reflink"> [59] </a>
-                                </p>
-                              </li>
-                            </ul>
-                            <p>
-                              </p><h4>Primary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-1" href="#drug-link-content-179267-1">magnesium sulphate</a>: 2 g intravenously as a single dose over 5-10 minutes</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-1">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-1&amp;optionId=expsec-4&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-1&amp;optionId=expsec-4&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-1&amp;optionId=expsec-4&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-1&amp;optionId=expsec-4&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class=" middle blank-end one">
-              <div class="row-fluid">
-                <div class="span3"></div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">
-                            <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for SOME patients in selected patient group. Click on treatment name for more details.">adjunct<i class="icon-info-sign "></i>
-                              <p class="info hidden-phone">
-                                <span>[?]</span>
-                              </p>
-                            </div>
-                          </h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn expanded" id="expsec-5" name="expsec-5"><i class="icon-arrow-down"></i>
-                            <span class="treatment-line-phone">
-                              <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for SOME patients in selected patient group. Click on treatment name for more details.">adjunct<i class="icon-info-sign "></i>
-                                <p class="info hidden-phone">
-                                  <span>[?]</span>
-                                </p>
-                              </div>
-                            </span><span class="treatment-name">anti-arrhythmic</span>
-                          </h4>
-                          <div style="height: auto; position: static !important;" class="treatment-content and-or in collapse" id="treatmentContent5">
-                            <ul>
-                              <li>
-                                <p>Given after adequate CPR and 2 or 3 attempts at defibrillation.</p>
-                              </li>
-                              <li>
-                                <p>Amiodarone is predominantly a class III anti-arrhythmic agent that also has alpha- and beta-adrenergic blocking properties. Trials on use in the setting of VT/VF have shown an increased rate of survival to hospital admission in comparison with placebo<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-72" id="popuplink-ref-bp_72" class="reflink"> [72] </a> or lidocaine<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-73" id="popuplink-ref-bp_73" class="reflink"> [73] </a> in out-of-hospital sudden cardiac arrest, but ultimately no significant difference in the rate of hospital discharge.<a class="reflink jstooltip evidence-score-B" id="popuplink-ref-score_2" href="/best-practice/monograph/283/treatment/evidence/score/2.html" title="" data-original-title="Randomized controlled trials (RCTs) of &amp;lt;200 participants, methodologically flawed RCTs of &amp;gt;200 participants, methodologically flawed systematic reviews (SRs) or good quality observational (cohort) studies."><span>
-          [B Evidence]
-        </span></a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Use of lidocaine in VT/VF is predominantly due to studies of efficacy in suppressing ventricular arrhythmias following acute MI. Studies have shown that it is inferior to amiodarone with respect to rates of survival to hospital admission in patients of out-of-hospital sudden cardiac arrest.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-73" id="popuplink-ref-bp_73" class="reflink"> [73] </a><a class="reflink jstooltip evidence-score-A" id="popuplink-ref-score_3" href="/best-practice/monograph/283/treatment/evidence/score/3.html" title="" data-original-title="Systematic reviews (SRs) or randomized controlled trials (RCTs) of &amp;gt;200 participants."><span>
-          [A Evidence]
-        </span></a> Its use is supported as an alternative to amiodarone.</p>
-                              </li>
-                            </ul>
-                            <p>
-                              </p><h4>Primary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-7" href="#drug-link-content-179267-7">amiodarone</a>: 300 mg intravenously as a single dose initially, followed by 150 mg as a single dose if required</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-7">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-7&amp;optionId=expsec-5&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-7&amp;optionId=expsec-5&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-7&amp;optionId=expsec-5&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-7&amp;optionId=expsec-5&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div><p>
-                              </p><h4>Secondary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-8" href="#drug-link-content-179267-8">lidocaine</a>: 1 to 1.5 mg/kg intravenously as a single dose initially, followed by 0.5 to 0.75 mg/kg every 5-10 minutes, maximum 3 mg/kg total dose</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-8">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-8&amp;optionId=expsec-5&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-8&amp;optionId=expsec-5&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-8&amp;optionId=expsec-5&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-8&amp;optionId=expsec-5&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="patient-group-container">
-            <div class="patient-group-parent patient-group-parent-single">
-              <div class="row-fluid">
-                <div class="span3">
-                  <h4 class="patient-group-btn">non-shockable rhythms (pulseless electrical activity or asystole)</h4>
-                </div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">1st</h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn expanded" id="expsec-6" name="expsec-6"><i class="icon-arrow-down"></i>
-                            <span class="treatment-line-phone">1st</span><span class="treatment-name">CPR and vasopressor</span>
-                          </h4>
-                          <div style="height: auto; position: static !important;" class="treatment-content and-or in collapse" id="treatmentContent6">
-                            <ul>
-                              <li>
-                                <p>Circulation of the blood by means of CPR is a demonstrated therapy in patients with sudden cardiac arrest and is thought to work by raising intrathoracic pressure, as well as providing direct cardiac compression.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-69" id="popuplink-ref-bp_69" class="reflink"> [69] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Each cycle: 30 compressions (at a rate of 100 compressions/minute) and 2 breaths for a total of 5 cycles (2 minutes).<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-48" id="popuplink-ref-bp_48" class="reflink"> [48] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>International Liaison Committee on Resuscitation (ILCOR) guidelines have specified that compressions should be performed as the first priority; breaths may follow, but should not impede lay persons from providing emergent compressions, as compression-only CPR has yielded equivalent outcomes to compression plus ventilation.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-48" id="popuplink-ref-bp_48" class="reflink"> [48] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Adrenaline (epinephrine) is a potent agonist of alpha- and beta-adrenergic receptors. Despite controversial data on its benefit in resuscitation, it has been used extensively in treating patients of sudden cardiac arrest and occupies a prominent role in the algorithms of advanced cardiac life support.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-49" id="popuplink-ref-bp_49" class="reflink"> [49] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>In cases where intravenous access cannot be established, twice the normal dose of adrenaline (epinephrine) (diluted in saline) can be given through an endotracheal tube.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-1" id="popuplink-ref-bp_1" class="reflink"> [1] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Vasopressin is normally secreted by the posterior pituitary gland. In addition to its myriad effects on the kidney, vasopressin is also a potent vasoconstrictor. It should not be used instead of adrenaline (epinephrine), but can continue to be used in settings where it is already in use.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-49" id="popuplink-ref-bp_49" class="reflink"> [49] </a>
-                                </p>
-                              </li>
-                            </ul>
-                            <p>
-                              </p><h4>Primary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-9" href="#drug-link-content-179267-9">adrenaline</a>: 1 mg intravenously every 3-5 minutes</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-9">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-9&amp;optionId=expsec-6&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-9&amp;optionId=expsec-6&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-9&amp;optionId=expsec-6&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-9&amp;optionId=expsec-6&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div><div class="big-or">
-                              <strong>OR</strong>
-                            </div><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-10" href="#drug-link-content-179267-10">adrenaline</a>: 2 mg (diluted in 5-10 mL normal saline) endotracheally every 3-5 minutes until IV access established</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-10">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-10&amp;optionId=expsec-6&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-10&amp;optionId=expsec-6&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-10&amp;optionId=expsec-6&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-10&amp;optionId=expsec-6&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div><p>
-                              </p><h4>Secondary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-11" href="#drug-link-content-179267-11">vasopressin</a>: 40 units intravenously as a single dose</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-11">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-11&amp;optionId=expsec-6&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-11&amp;optionId=expsec-6&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-11&amp;optionId=expsec-6&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-11&amp;optionId=expsec-6&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class=" middle blank-end one">
-              <div class="row-fluid">
-                <div class="span3"></div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">
-                            <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for ALL patients in selected patient group.">plus<i class="icon-info-sign"></i>
-                              <p class="info hidden-phone">
-                                <span>[?]</span>
-                              </p>
-                            </div>
-                          </h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn expanded" id="expsec-7" name="expsec-7"><i class="icon-arrow-down"></i>
-                            <span class="treatment-line-phone">
-                              <div class="treatment-line jstooltip" title="" data-original-title="Treatment recommended for ALL patients in selected patient group.">plus<i class="icon-info-sign"></i>
-                                <p class="info hidden-phone">
-                                  <span>[?]</span>
-                                </p>
-                              </div>
-                            </span><span class="treatment-name">atropine</span>
-                          </h4>
-                          <div style="height: auto; position: static !important;" class="treatment-content and-or in collapse" id="treatmentContent7">
-                            <ul>
-                              <li>
-                                <p>Given during CPR if bradycardic PEA and asystole are present.</p>
-                              </li>
-                              <li>
-                                <p>The use of atropine in bradycardic PEA and asystole is not well founded in evidence-based practice. </p>
-                              </li>
-                              <li>
-                                <p>Though it is routinely used, specific data for its benefit in the resuscitation of patients with sudden cardiac arrest are lacking.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-74" id="popuplink-ref-bp_74" class="reflink"> [74] </a><a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-75" id="popuplink-ref-bp_75" class="reflink"> [75] </a>
-                                </p>
-                              </li>
-                            </ul>
-                            <p>
-                              </p><h4>Primary options</h4>
-                            <p></p><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-5" href="#drug-link-content-179267-5">atropine</a>: 0.5 to 1 mg intravenously every 3-5 minutes, maximum 3 mg total dose</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-5">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-5&amp;optionId=expsec-7&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-5&amp;optionId=expsec-7&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-5&amp;optionId=expsec-7&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-5&amp;optionId=expsec-7&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div><div class="big-or">
-                              <strong>OR</strong>
-                            </div><div class="treatment-wrap"><div class="treatment-box"><p class="treatment">
-                              <a class="druglink" rel="external" tabindex="45" id="179267-6" href="#drug-link-content-179267-6">atropine</a>: 2 mg (diluted in 5-10 mL normal saline) endotracheally every 3-5 minutes, maximum 6 mg total dose</p>
-                            <div class="messagepop pop" style="display:none" id="drug-link-content-179267-6">
-                              <h3 style="font-weight: normal;" class="popover-title">Choose your drug database</h3>
-                              <div class="popover-content">
-                                <ul><li><a id="bnf-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-6&amp;optionId=expsec-7&amp;dd=BNF">BNF</a></li><li><a id="ashp-option" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-6&amp;optionId=expsec-7&amp;dd=ASHP">AHFS DI Essentials</a></li><li><a id="micromedex-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-6&amp;optionId=expsec-7&amp;dd=MICROMEDEX">Micromedex</a></li><li><a id="martindale-option" target="_blank" href="http://bestpractice.bmj.com/best-practice/druglink.html?component-id=179267-6&amp;optionId=expsec-7&amp;dd=MARTINDALE">Martindale</a></li></ul>
-                                <br>
-                                <a href="/best-practice/mybp/mybp.html?category=drugdb" style="margin: 0 15% 0 15%;" class="btn edit-formulary">Set a default formulary</a>
-                              </div>
-                              <a href="#" class="close messagepop-close">×</a>
-                              <br class="clear">
-                            </div></div></div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr>
         </div>
-        <div class="container treatment-options expandable-section" id="content">
-          <h3 class="ongoing">Ongoing</h3>
-          <div class="column-headings">
-            <div class="row-fluid hidden-phone">
-              <div class="span3">
-                <h4>Patient group</h4>
-              </div>
-              <div class="span2">
-                <h4>Treatment line</h4>
-              </div>
-              <div class="span7">
-                <h4>Treatment<span class="showall expand-all">show all</span>
-                </h4>
-              </div>
-            </div>
-            <div class="patient-group-head visible-phone">
-              <h3>Patient group:</h3>
+
+        <!-- <div class="clear"></div> -->
+
+        <div class="row-fluid">
+          <div class="span6">
+            <div class="learning" id="bmj">
+              <div class="product-logo">  <img src="./DT_index_files/portal-logo-bmj.gif"> </div>
+              <h2>Latest from The BMJ</h2>
+              
+              <div class="content"><div class="btn portal-item"><h3>Research News:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.h6882">Warning signs are common in the days before cardiac arrest but are often ignored</a><div class="portal-item-date">Published 22/12/2015</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>Editorials:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.i1858">Improving outcomes from in-hospital cardiac arrest</a><div class="portal-item-date">Published 06/04/2016</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>Research:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.i1653">Defibrillation time intervals and outcomes of cardiac arrest in hospital: retrospective cohort study from Get With The Guidelines-Resuscitation registry</a><div class="portal-item-date">Published 06/04/2016</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>Research:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.i1577">Early administration of epinephrine (adrenaline) in patients with cardiac arrest with initial shockable rhythm in hospital: propensity score matched analysis</a><div class="portal-item-date">Published 06/04/2016</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>Research:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.i843">Oral fluoroquinolone use and serious arrhythmia: bi-national cohort study</a><div class="portal-item-date">Published 26/02/2016</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>Clinical Review:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.h5153">Acute coronary syndromes</a><div class="portal-item-date">Published 20/10/2015</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>Research:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.h7013">Atrial fibrillation as risk factor for cardiovascular disease and death in women compared with men: systematic review and meta-analysis of cohort studies</a><div class="portal-item-date">Published 19/01/2016</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>Research News:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmj.i1083">No link between macrolide antibiotics and ventricular arrhythmias, study finds</a><div class="portal-item-date">Published 23/02/2016</div><input class="addItemToPortfolio" type="checkbox"></div></div>
             </div>
           </div>
-          <div class="patient-group-container">
-            <div class="patient-group-parent patient-group-parent-single">
-              <div class="row-fluid">
-                <div class="span3">
-                  <h4 class="patient-group-btn">return of spontaneous circulation</h4>
-                </div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">1st</h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn collapsed" id="expsec-8" name="expsec-8"><i class="icon-arrow-right"></i>
-                            <span class="treatment-line-phone">1st</span><span class="treatment-name">post-resuscitation care</span>
-                          </h4>
-                          <div style="height:0px; position:static !important" class="treatment-content and-or collapse" id="treatmentContent8">
-                            <ul>
-                              <li>
-                                <p>Should be instigated immediately and involves continued monitoring, organ support, correction of electrolyte imbalances and acidosis, safe transfer to a critical care environment, and identification and correction of risk factors and underlying causes.</p>
-                              </li>
-                              <li>
-                                <p>Multiple studies of therapeutic hypothermia (lowering the core body temperature to 32 to 34°C (89.6 to 93.2°F) have demonstrated an improvement in neurological function and survival without a significant increase in the rate of adverse events.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-76" id="popuplink-ref-bp_76" class="reflink"> [76] </a>
-                                </p>
-                              </li>
-                              <li>
-                                <p>Long-term management focuses primarily on prevention of recurrence. Patients should abstain from toxic substances. Comparison of antiarrhythmic therapy with the use of implantable cardioverter-defibrillators (ICD) has shown a significant reduction in mortality with the use of ICDs compared with drug therapy in the secondary prevention of sudden cardiac arrest.<a tabindex="45" href="/best-practice/monograph/283/resources/references.html#ref-67" id="popuplink-ref-bp_67" class="reflink"> [67] </a>
-                                </p>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="span6">
+            <div class="learning" id="bmjjs">
+              <div class="product-logo"> <img src="./DT_index_files/portal-logo-bmjjs.gif">  </div>
+              <h2>Latest from the BMJ Journals</h2>
+              
+              <div class="content"><div class="btn portal-item"><h3>Heart:</h3><a target="_blank" href="http://dx.doi.org/10.1136/heartjnl-2016-309377.8">P8 Sudden cardiac death in childhood</a><div class="portal-item-date">Published 02/03/2016</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>BMJ Case Reports:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bcr-2015-212351">Sudden cardiac arrest as a presentation of Brugada syndrome unmasked by thyroid storm</a><div class="portal-item-date">Published 30/12/2015</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>BMJ Case Reports:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bcr-2015-211473">Sudden cardiac death in asymptomatic aortic stenosis: is the valve to blame?</a><div class="portal-item-date">Published 07/01/2016</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>British Journal of Sports Medicine:</h3><a target="_blank" href="http://bjsm.bmj.com/lookup/doi/10.1136/bjsports-2015-095706">Sudden cardiac arrest on the football field of play—highlights for sports medicine from the European Resuscitation Council 2015 Consensus Guidelines</a><div class="portal-item-date">Published 01/12/2015</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>British Journal of Sports Medicine:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bjsports-2015-095706">Sudden cardiac arrest on the football field of play—highlights for sports medicine from the European Resuscitation Council 2015 Consensus Guidelines</a><div class="portal-item-date">Published 01/12/2015</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>British Journal of Sports Medicine:</h3><a target="_blank" href="http://bjsm.bmj.com/lookup/doi/10.1136/bjsports-2015-094900">Sudden cardiac death associated with physical exertion in the US military, 2005–2010</a><div class="portal-item-date">Published 26/11/2015</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>British Journal of Sports Medicine:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bjsports-2015-094900">Sudden cardiac death associated with physical exertion in the US military, 2005–2010</a><div class="portal-item-date">Published 26/11/2015</div><input class="addItemToPortfolio" type="checkbox"></div><div class="btn portal-item"><h3>BMJ Open:</h3><a target="_blank" href="http://dx.doi.org/10.1136/bmjopen-2015-010150">ECG risk markers for atrial fibrillation and sudden cardiac death in minimally symptomatic obstructive sleep apnoea: the MOSAIC randomised trial</a><div class="portal-item-date">Published 16/03/2016</div><input class="addItemToPortfolio" type="checkbox"></div></div>
             </div>
           </div>
-          <hr>
-          <div class="patient-group-container">
-            <div class="patient-group-parent patient-group-parent-single">
-              <div class="row-fluid">
-                <div class="span3">
-                  <h4 class="patient-group-btn">no return of spontaneous circulation</h4>
-                </div>
-                <div class="span9">
-                  <div class="patient-group-content">
-                    <div class="treatment-container">
-                      <div class="row-fluid">
-                        <div class="span2 treatment-line hidden-phone">
-                          <h4 class="patient-group-btn">1st</h4>
-                        </div>
-                        <div class="span1">&nbsp;</div>
-                        <div class="span9 treatment expandable">
-                          <h4 class="treatment-btn collapsed" id="expsec-517501" name="expsec-517501"><i class="icon-arrow-right"></i>
-                            <span class="treatment-line-phone">1st</span><span class="treatment-name">continue or consider termination of resuscitation</span>
-                          </h4>
-                          <div style="height:0px; position:static !important" class="treatment-content and-or collapse" id="treatmentContent517501">
-                            <ul>
-                              <li>
-                                <p>The decision to terminate resuscitation is an ethically challenging issue when treating patients for whom circulation does not return in a timely fashion. </p>
-                              </li>
-                              <li>
-                                <p>Terminating resuscitative measures may be legitimate on the basis of the following parameters: delayed initiation of CPR in unwitnessed cardiac arrest, unsuccessful resuscitation after 20 minutes of ACLS guideline-directed therapy, documentation that a patient has previously signed a "do not resuscitate" order or conditions that compromise the safety of the emergency care providers.</p>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr>
         </div>
       </div>
     </div>
-    <div class="clear">
+
+    <script>
+      var portfolio_host = 'http://portfolio.bmj.com',
+        current_site = '',
+        javasim_urls = {};
+
+      
+        javasim_urls["Learning"] = "http://morelikethis.bmj.com/javasim/morelikethis-guid.do?index=corpusIndexExpanded&excl=&restrict=Learning&maxDocs=4&guid=bmj:best-practice:monograph-full:283:en-gb";
+      
+        javasim_urls["CE"] = "http://morelikethis.bmj.com/javasim/morelikethis-guid.do?index=corpusIndexExpanded&excl=&restrict=CE&maxDocs=2&guid=bmj:best-practice:monograph-full:283:en-gb";
+      
+        javasim_urls["BMJJs"] = "http://morelikethis.bmj.com/javasim/morelikethis-guid.do?index=corpusIndexExpanded&excl=&restrict=BMJJs&maxDocs=8&maxAgeInMonths=6&dateRelevance=true&dateScaling=2&dateLogBase=10&dateRelevanceAlgorithm=exp2&guid=bmj:best-practice:monograph-full:283:en-gb";
+      
+        javasim_urls["BMJ"] = "http://morelikethis.bmj.com/javasim/morelikethis-guid.do?index=corpusIndexExpanded&excl=&restrict=BMJ&maxDocs=8&maxAgeInMonths=6&dateRelevance=true&dateScaling=2&dateLogBase=10&dateRelevanceAlgorithm=exp2&guid=bmj:best-practice:monograph-full:283:en-gb";
+      
+        javasim_urls["BP"] = "http://morelikethis.bmj.com/javasim/morelikethis-guid.do?index=corpusIndexExpanded&excl=&restrict=BP&maxDocs=4&guid=bmj:best-practice:monograph-full:283:en-gb";
+      
+      </script>
+
+    <!--[if IE 7]>
+        <script type="text/javascript" src="/best-practice/js/lib/json3.min.js"></script>
+    <![endif]-->
+    <script src="/best-practice/js/related-content.js"></script>
   <div class="pagination pagination-large pull-right">
                     <ul>
                       <li><a tabindex="65" href="#topContainer">Top</a></li>
@@ -1374,7 +867,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- /content -->
+            </div>
           </div><!-- /wrapper -->
 
           <!-- language drop down  -->

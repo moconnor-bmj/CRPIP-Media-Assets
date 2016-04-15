@@ -1,3 +1,12 @@
+a {
+  pointer-events: none;
+}
+.active a, a .active, a.back-to-top {
+  pointer-events: all;
+  opacity: 1;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
 /** Generic **/
 #content {
   margin-top: 20px;

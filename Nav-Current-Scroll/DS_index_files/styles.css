@@ -1,7 +1,7 @@
 a {
   pointer-events: none;
 }
-.active a, a .active {
+.active a, a .active, a.back-to-top {
   pointer-events: all;
   opacity: 1;
   font-weight: bold;
