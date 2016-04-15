@@ -24,7 +24,7 @@ a{
 }
 
 
-.ad-leaderboard a:active {
+.ad-leaderboard a:active, .ad-leaderboard a:current {
   color: #ffa500 !important;
 }
 /** Generic **/
