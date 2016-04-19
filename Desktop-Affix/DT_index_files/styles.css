@@ -1,3 +1,209 @@
+/* Index Page*/
+.index #ham-icon {
+  background-color: #E5EEF7;
+  border: 1px solid #2a6ebb;
+  border-right: 30px solid #2a6ebb;
+}
+
+.index span.menu-label {
+    
+    color: #2a6ebb;
+    padding: 18px 10px 14px 20px;
+    font-weight: bold;
+    font-size: smaller;
+    position: relative;
+    top: -42px;
+    left: 0px;
+}
+.index .monograph-header-container {
+  background-color: #2a6ebb;
+  color: #fff;
+  height: 51px;
+}
+
+.index .monograph-header-container .hamburger {
+    width: 51px;
+    height: 48px;
+    float: right;
+    margin-right: 23px
+}
+.index .monograph-header-container {
+  background-color: #2a6ebb;
+  color: #fff;
+  height: 51px;
+}
+
+.index .monograph-header-container .hamburger{
+    width: 51px;
+    height: 48px;
+    float: right;
+    margin-right: 23px
+}
+
+.index .monograph-header-container h1 small.monograph-title {
+  color: #fff;
+  font-size: 1.5rem !important;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+}
+
+.index #main-nav-wrap {
+  padding: 0 9px 0 9px;
+  background-color: #E5EEF7;
+  border: 1px solid #cddff4;
+  margin-top: -32px;
+  width: 1150px;
+}
+
+/* Diag Page*/
+.diag #ham-icon {
+  background-color: #E5EEF7;
+  border: 1px solid #2a6ebb;
+  border-right: 30px solid #2a6ebb;
+}
+
+.diag span.menu-label {
+    
+    color: #2a6ebb;
+    padding: 18px 10px 14px 20px;
+    font-weight: bold;
+    font-size: smaller;
+    position: relative;
+    top: -42px;
+    left: 0px;
+}
+.diag .monograph-header-container {
+  background-color: #2a6ebb;
+  color: #fff;
+  height: 51px;
+}
+
+.diag .monograph-header-container .hamburger {
+    width: 51px;
+    height: 48px;
+    float: right;
+    margin-right: 54px
+}
+.diag .monograph-header-container {
+  background-color: #2a6ebb;
+  color: #fff;
+  height: 51px;
+}
+
+.diag .monograph-header-container .hamburger{
+    width: 51px;
+    height: 48px;
+    float: right;
+    margin-right: 23px
+}
+
+.diag .monograph-header-container h1 small.monograph-title {
+  color: #fff;
+  font-size: 1.5rem !important;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+}
+
+.diag #main-nav-wrap {
+  padding: 0 9px 0 9px;
+  background-color: #E5EEF7;
+  border: 1px solid #cddff4;
+  margin-top: -32px;
+  width: 1150px;
+}
+
+/* resources Page*/
+.resources #ham-icon {
+  background-color: #E5EEF7;
+  border: 1px solid #2a6ebb;
+  border-right: 30px solid #2a6ebb;
+}
+
+.resources span.menu-label {
+    
+    color: #2a6ebb;
+    padding: 18px 10px 14px 20px;
+    font-weight: bold;
+    font-size: smaller;
+    position: relative;
+    top: -42px;
+    left: 0px;
+}
+.resources .monograph-header-container {
+  background-color: #2a6ebb;
+  color: #fff;
+  height: 51px;
+}
+
+.resources .monograph-header-container .hamburger {
+    width: 51px;
+    height: 48px;
+    float: right;
+    margin-right: 23px
+}
+
+.resources .monograph-header-container h1 small.monograph-title {
+  color: #fff;
+  font-size: 1.5rem !important;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+}
+
+.resources #main-nav-wrap {
+  padding: 0 9px 0 9px;
+  background-color: #E5EEF7;
+  border: 1px solid #cddff4;
+  margin-top: -32px;
+  width: 1150px;
+}
+
+
+/* treatment Page*/
+.treatment #ham-icon {
+  background-color: #E5EEF7;
+  border: 1px solid #2a6ebb;
+  border-right: 30px solid #2a6ebb;
+}
+
+.treatment span.menu-label {
+    
+    color: #2a6ebb;
+    padding: 18px 10px 14px 20px;
+    font-weight: bold;
+    font-size: smaller;
+    position: relative;
+    top: -42px;
+    left: 0px;
+}
+.treatment .monograph-header-container {
+  background-color: #2a6ebb;
+  color: #fff;
+  height: 51px;
+}
+
+.treatment .monograph-header-container .hamburger {
+    width: 51px;
+    height: 48px;
+    float: right;
+    margin-right: 23px
+}
+
+.treatment .monograph-header-container h1 small.monograph-title {
+  color: #fff;
+  font-size: 1.5rem !important;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+}
+
+.treatment #main-nav-wrap {
+  padding: 0 9px 0 9px;
+  background-color: #E5EEF7;
+  border: 1px solid #cddff4;
+  margin-top: 0;
+  width: 1150px;
+}
+
+
 #messaging {
 position: absolute;
 left: 50%;
